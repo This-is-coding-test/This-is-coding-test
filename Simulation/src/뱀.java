@@ -98,7 +98,6 @@ public class 뱀 {
 
 
             if (nx >= 1 && ny >= 1 && nx <= N && ny <= N) {  // 이동 가능
-
                 // 사과 존재 ?
                 if (map[nx][ny] == 1) {
                     map[nx][ny] = 0;
@@ -107,8 +106,6 @@ public class 뱀 {
                     snake.addFirst(new Point(nx, ny));
                     snake.removeLast();
                 }
-
-
             } else { // 이동 불가
                 break;
             }
