@@ -105,7 +105,7 @@ public class 뱀 {
                 } else {
                     snake.addFirst(new Point(nx, ny));
                     snake.removeLast();
-                    
+
                 }
             } else { // 이동 불가
                 break;
