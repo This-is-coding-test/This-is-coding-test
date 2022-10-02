@@ -18,7 +18,6 @@ public class 고정점_찾기 {
         for (int i = 0; i < N; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
         }
-
         binarySearch();
 
         System.out.println(result);
