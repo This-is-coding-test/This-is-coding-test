@@ -31,8 +31,6 @@ public class 정렬된_배열에서_특정_수의_개수_구하기 {
             return;
         }
         System.out.println(result);
-
-
     }
 
     private static void binarySearch() {
